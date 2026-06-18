@@ -15,7 +15,7 @@ Para iniciar la simulación:
 
 ```bash
 python main.py
-
+```
 ---
 
 ## 2. Ingreso del Legajo
