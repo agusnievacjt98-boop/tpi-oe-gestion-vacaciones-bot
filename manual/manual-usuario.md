@@ -14,7 +14,6 @@ Para iniciar la simulación:
 3. Ejecutar el siguiente comando:
 
 ```
-```
 
 ---
 
@@ -31,7 +30,6 @@ Ingrese su número de legajo:
 102
 Si el legajo no existe, el sistema mostrará un mensaje de error y pedirá ingresarlo nuevamente.
 
-```
 ```
 
 ---
