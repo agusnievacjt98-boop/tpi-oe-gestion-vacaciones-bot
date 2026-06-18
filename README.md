@@ -87,7 +87,7 @@ Para ejecutarlo:
 
 ```bash
 python main.py
-
+```
 
 ---
 
