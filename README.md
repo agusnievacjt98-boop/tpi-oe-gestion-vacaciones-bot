@@ -85,8 +85,6 @@ Para ejecutarlo:
 ```bash
 python main.py
 
----
-
 ## 7. Lógica del Chatbot (main.py)
 El archivo main.py contiene:
 
