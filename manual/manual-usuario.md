@@ -13,7 +13,7 @@ Para iniciar la simulación:
 2. Posicionarse en la carpeta del proyecto.
 3. Ejecutar el siguiente comando:
 
-```bash
+```
 ```
 
 ---
@@ -31,7 +31,7 @@ Ingrese su número de legajo:
 102
 Si el legajo no existe, el sistema mostrará un mensaje de error y pedirá ingresarlo nuevamente.
 
-```bash
+```
 ```
 
 ---
