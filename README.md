@@ -77,8 +77,6 @@ Contiene:
 
 ---
 
-
-```markdown
 ## 6. Ejecución del Proyecto (Simulación)
 
 Este proyecto **no implementa un bot real**, sino una **simulación por consola** del flujo conversacional.
