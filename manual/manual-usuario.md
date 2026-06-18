@@ -14,7 +14,6 @@ Para iniciar la simulación:
 3. Ejecutar el siguiente comando:
 
 ```bash
-python main.py
 ```
 
 ---
@@ -33,7 +32,6 @@ Ingrese su número de legajo:
 Si el legajo no existe, el sistema mostrará un mensaje de error y pedirá ingresarlo nuevamente.
 
 ```bash
-python main.py
 ```
 
 ---
