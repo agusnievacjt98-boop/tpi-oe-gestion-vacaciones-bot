@@ -46,7 +46,6 @@ tpi-oe-gestion-vacaciones-bot/
 └─ manual/
 └─ manual-usuario.md
 
-Código
 
 ---
 
@@ -66,7 +65,6 @@ La base de datos se encuentra en:
 
 data/empleados.xlsx
 
-Código
 
 Contiene:
 
@@ -90,28 +88,32 @@ python main.py
 ---
 
 ## 7. Lógica del Chatbot (main.py)
-°El archivo main.py contiene:
+El archivo main.py contiene:
 
-°Validación de legajo
+Validación de legajo
 
-°Solicitud de fechas
+Solicitud de fechas
 
-°Cálculo de días
+Cálculo de días
 
-°Comparación con saldo disponible
+Comparación con saldo disponible
 
-°Aprobación o rechazo
+Aprobación o rechazo
 
 ---
 
 ## 8. Manual de Usuario
-disponible en:
-manual/manual-usuario.md
+Disponible en:
+ manual/manual-usuario.md
 Incluye:
--Cómo iniciar la solicitud
--Cómo ingresar legajo
--Cómo ingresar fechas
--Ejemplos de aprobación y rechazo
+
+Cómo iniciar la solicitud
+
+Cómo ingresar legajo
+
+Cómo ingresar fechas
+
+Ejemplos de aprobación y rechazo
 
 ---
 
