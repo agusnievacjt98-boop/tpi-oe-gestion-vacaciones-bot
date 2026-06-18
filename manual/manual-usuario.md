@@ -3,6 +3,8 @@
 Este manual explica cómo utilizar la simulación del chatbot desarrollada para gestionar solicitudes de vacaciones.  
 El sistema funciona por consola y guía al usuario paso a paso durante el proceso.
 
+```
+
 ---
 
 ## 1. Inicio del Sistema
