@@ -17,7 +17,7 @@ Para iniciar la simulación:
 python main.py
 ```
 ---
-
+```
 ## 2. Ingreso del Legajo
 
 El chatbot solicitará:
