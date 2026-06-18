@@ -15,6 +15,7 @@ Para iniciar la simulación:
 
 ```bash
 python main.py
+```
 
 ---
 
@@ -30,6 +31,10 @@ Ejemplo:
 Ingrese su número de legajo:
 102
 Si el legajo no existe, el sistema mostrará un mensaje de error y pedirá ingresarlo nuevamente.
+
+```bash
+python main.py
+```
 
 ---
 
