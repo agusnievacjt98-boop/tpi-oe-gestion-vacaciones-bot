@@ -32,7 +32,7 @@ Ingrese su número de legajo:
 Si el legajo no existe, el sistema mostrará un mensaje de error y pedirá ingresarlo nuevamente.
 
 ```
----
+
 ```
 ## 3. Ingreso de Fechas
 
