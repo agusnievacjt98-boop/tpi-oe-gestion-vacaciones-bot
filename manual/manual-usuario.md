@@ -3,8 +3,6 @@
 Este manual explica cómo utilizar la simulación del chatbot desarrollada para gestionar solicitudes de vacaciones.  
 El sistema funciona por consola y guía al usuario paso a paso durante el proceso.
 
-```
-
 ---
 
 ## 1. Inicio del Sistema
@@ -15,7 +13,8 @@ Para iniciar la simulación:
 2. Posicionarse en la carpeta del proyecto.
 3. Ejecutar el siguiente comando:
 
-```
+```bash
+python main.py
 
 ---
 
