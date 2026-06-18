@@ -17,7 +17,7 @@ Para iniciar la simulación:
 python main.py
 ```
 ---
-```
+
 ## 2. Ingreso del Legajo
 
 El chatbot solicitará:
@@ -32,7 +32,6 @@ Ingrese su número de legajo:
 Si el legajo no existe, el sistema mostrará un mensaje de error y pedirá ingresarlo nuevamente.
 
 ```
-
 ---
 
 ## 3. Ingreso de Fechas
