@@ -1,47 +1,123 @@
-# Gestión de Vacaciones – Chatbot (TPI Organización Empresarial)
+# Gestión de Vacaciones – Chatbot  
+### Trabajo Práctico Integrador – Organización Empresarial (UTN – TUP)
 
-Este repositorio corresponde al Trabajo Práctico Integrador de la materia **Organización Empresarial** (UTN – TUP).
+Este repositorio contiene el desarrollo técnico del Trabajo Práctico Integrador (TPI) de la materia **Organización Empresarial**, cuyo objetivo es modelar, documentar y simular el proceso de **gestión de vacaciones** mediante un chatbot, alineado con un modelo BPMN 2.0.
 
-El objetivo es modelar y simular el proceso de **gestión de vacaciones** mediante un chatbot, alineado con un modelo BPMN 2.0.
+---
 
-## 1. Descripción del proyecto
+## 1. Descripción del Proyecto
 
-El bot simula el flujo de solicitud de vacaciones:
+El proyecto consiste en la simulación de un chatbot que gestiona solicitudes de vacaciones.  
+El bot permite:
 
-- El usuario inicia el chat.
-- Ingresa su legajo.
-- El sistema valida el legajo contra una base de datos simulada (Excel).
-- El usuario ingresa fechas de inicio y fin.
-- El bot calcula los días solicitados y verifica el saldo disponible.
-- Si alcanza el saldo → aprueba y registra.
-- Si no alcanza → rechaza y ofrece alternativas.
+- Solicitar el legajo del empleado  
+- Validar el legajo contra una base de datos simulada  
+- Solicitar fechas de inicio y fin  
+- Calcular días solicitados  
+- Comparar contra el saldo disponible  
+- Aprobar o rechazar la solicitud  
 
-## 2. Tecnologías propuestas
+El objetivo es **representar el proceso TO‑BE automatizado**, basado en el análisis del proceso AS‑IS manual.
 
-- **Lenguaje:** Python
-- **Plataforma objetivo:** Telegram (simulado)
-- **Librerías posibles:**
-  - `python-telegram-bot` (para una implementación real)
-  - `pandas` (para leer la base de datos simulada en Excel)
+---
 
-## 3. Estructura del repositorio
+## 2. Tecnologías Utilizadas
 
-- `main.py`: esqueleto del bot (simulación de flujo).
-- `data/empleados.xlsx`: base de datos simulada con legajo, nombre y saldo de días.
-- `docs/`: diagramas BPMN (AS-IS, TO-BE, máquina de estados).
-- `manual/`: manual de usuario del bot.
+- **Python** (simulación del chatbot)
+- **Pandas** (lectura de base de datos simulada)
+- **Excel** (persistencia simulada)
+- **BPMN 2.0** (modelado del proceso)
+- **GitHub** (repositorio y documentación)
 
-## 4. Ejecución (simulada)
+---
 
-Este proyecto se plantea como **simulación** del proceso. El archivo `main.py` contiene un flujo por consola que representa la lógica del chatbot.
+## 3. Estructura del Repositorio
+
+tpi-oe-gestion-vacaciones-bot/
+├─ README.md
+├─ main.py
+├─ requirements.txt
+├─ data/
+│  └─ empleados.xlsx
+├─ docs/
+│  ├─ bpmn-as-is.png
+│  ├─ bpmn-to-be.png
+│  └─ maquina-estados.png
+└─ manual/
+└─ manual-usuario.md
+
+Código
+
+---
+
+## 4. Diagramas BPMN
+
+Los diagramas del proceso se encuentran en la carpeta **/docs**:
+
+- **AS‑IS:** `docs/bpmn-as-is.png`  
+- **TO‑BE:** `docs/bpmn-to-be.png`  
+- **Máquina de estados:** `docs/maquina-estados.png`
+
+---
+
+## 5. Base de Datos Simulada
+
+La base de datos se encuentra en:
+
+data/empleados.xlsx
+
+Código
+
+Contiene:
+
+| Legajo | Nombre | Saldo_dias |
+|--------|---------|-------------|
+| 101 | Ana Pérez | 7 |
+| 102 | Juan Soto | 14 |
+| 103 | Agustina Nieva | 10 |
+
+---
+
+## 6. Ejecución del Proyecto (Simulación)
+
+Este proyecto **no implementa un bot real**, sino una **simulación por consola** del flujo conversacional.
+
+Para ejecutarlo:
 
 ```bash
 python main.py
 
+---
 
-## 5. Autora
 
-**Nombre:** Agustina Nieva  
-**Carrera:** Tecnicatura Universitaria en Programación  
-**Materia:** Organización Empresarial  
-**Año:** 2026
+## 7. Lógica del Chatbot (main.py)
+°El archivo main.py contiene:
+
+°Validación de legajo
+
+°Solicitud de fechas
+
+°Cálculo de días
+
+°Comparación con saldo disponible
+
+°Aprobación o rechazo
+
+---
+
+## 8. Manual de Usuario
+disponible en:
+manual/manual-usuario.md
+Incluye:
+-Cómo iniciar la solicitud
+-Cómo ingresar legajo
+-Cómo ingresar fechas
+-Ejemplos de aprobación y rechazo
+
+---
+
+## 9. Autora
+Nombre: Agustina Nieva
+Carrera: Tecnicatura Universitaria en Programación
+Materia: Organización Empresarial
+Año: 2026
