@@ -33,7 +33,7 @@ Si el legajo no existe, el sistema mostrará un mensaje de error y pedirá ingre
 
 ```
 ---
-
+```
 ## 3. Ingreso de Fechas
 
 Una vez validado el legajo, el chatbot solicitará:
