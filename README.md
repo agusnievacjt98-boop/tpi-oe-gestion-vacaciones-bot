@@ -74,7 +74,9 @@ Contiene:
 | 102 | Juan Soto | 14 |
 | 103 | Agustina Nieva | 10 |
 
+
 ---
+
 
 ```markdown
 ## 6. Ejecución del Proyecto (Simulación)
@@ -86,7 +88,9 @@ Para ejecutarlo:
 ```bash
 python main.py
 
+
 ---
+
 
 ## 7. Lógica del Chatbot (main.py)
 El archivo main.py contiene:
@@ -101,7 +105,9 @@ Comparación con saldo disponible
 
 Aprobación o rechazo
 
+
 ---
+
 
 ## 8. Manual de Usuario
 Disponible en:
@@ -116,7 +122,9 @@ Cómo ingresar fechas
 
 Ejemplos de aprobación y rechazo
 
+
 ---
+
 
 ## 9. Autora
 Nombre: Agustina Nieva
