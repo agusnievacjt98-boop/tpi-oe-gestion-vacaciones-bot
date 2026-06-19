@@ -53,9 +53,8 @@ tpi-oe-gestion-vacaciones-bot/
 
 Los diagramas del proceso se encuentran en la carpeta **/docs**:
 
-- **AS‑IS:** `docs/bpmn-as-is.png`  
-- **TO‑BE:** `docs/bpmn-to-be.png`  
-- **Máquina de estados:** `docs/maquina-estados.png`
+- **AS‑IS:** ![AS-IS](docs/bpmn-as-is.1.jpeg)  
+- **TO‑BE:** ![TO-BE](docs/bpmn-to-be.1.jpeg)
 
 ---
 
