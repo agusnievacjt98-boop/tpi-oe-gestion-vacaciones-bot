@@ -45,7 +45,7 @@ def main():
     if dias_solicitados <= empleado["saldo_dias"]:
         print(f"Solicitud aprobada por {dias_solicitados} días.")
     else:
-        print("No tenés saldo suficiente para esa cantidad de días.")
+        print("Solicitud rechazada. Los días solicitados superan el saldo disponible.")
 
 if __name__ == "__main__":
     main()
