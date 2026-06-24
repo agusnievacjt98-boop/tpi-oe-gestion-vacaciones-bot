@@ -77,9 +77,11 @@ Los diagramas se encuentran en **/docs** y siguen la notación estándar BPMN 2.
 - El flujo **cruza entre carriles** representando la interacción real
 - Dos **gateways exclusivos** (rombos) con exactamente dos ramas de salida cada uno
 
+
 | AS-IS (proceso manual) | TO-BE (proceso automatizado) |
 |---|---|
 | ![AS-IS](docs/bpmn-as-is.1.jpeg) | ![TO-BE](docs/bpmn-to-be.1.jpeg) |
+
 
 ---
 
@@ -123,7 +125,7 @@ INICIO
 4. Saldo suficiente → solicitud **aprobada**, saldo actualizado
 
 ```
-=== Chatbot Gestión de Vacaciones (Simulación) ===
+Chatbot Gestión de Vacaciones (Simulación)
 Escribí 'Vacaciones' para iniciar: Vacaciones
 Ingresá tu número de legajo: 102
 ✅ Legajo válido. Hola, Juan Soto. Tenés 14 días disponibles.
