@@ -175,4 +175,4 @@ Incluye comandos, ejemplos de aprobación y rechazo, y manejo de errores.
 
 **Agustina Nieva**  
 Tecnicatura Universitaria en Programación · UTN  
-Materia: Organización Empresarial · 2025/2026
+Materia: Organización Empresarial · 2026
