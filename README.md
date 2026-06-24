@@ -61,8 +61,8 @@ tpi-oe-gestion-vacaciones-bot/
 ├── data/
 │   └── empleados.xlsx    ← BD simulada (referencia)
 ├── docs/
-│   ├── bpmn-as-is.jpeg
-│   ├── bpmn-to-be.jpeg
+│   ├── bpmn-as-is-corregido.jpeg
+│   ├── bpmn-to-be-corregido.jpeg
 │   └── maquina-estados.png
 └── manual/
     └── manual-usuario.md
@@ -80,7 +80,7 @@ Los diagramas se encuentran en **/docs** y siguen la notación estándar BPMN 2.
 
 | AS-IS (proceso manual) | TO-BE (proceso automatizado) |
 |---|---|
-| ![AS-IS](docs/bpmn-as-is.1.jpeg) | ![TO-BE](docs/bpmn-to-be.1.jpeg) |
+| ![AS-IS](docs/bpmn-as-is-corregido.jpeg) | ![TO-BE](docs/bpmn-to-be-corregido.jpeg) |
 
 
 ---
